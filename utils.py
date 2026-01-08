@@ -10,4 +10,4 @@ def calculate_average(values):
     """
     if not values:
         return 0
-    return sum(values) / len(values)
+    return sum(values) / len(values) + 10  # BUG: Ajoute 10 intentionnellement
